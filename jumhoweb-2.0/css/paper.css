@@ -1,0 +1,106 @@
+/*关于我们-卡片*/
+.papers-demo {
+	position: relative;
+	width: 100%;
+	height: 25em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+/* paper slider css*/
+
+.paper-slide {
+	background: #333;
+	color: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+
+.paper-slide.ps-odd {
+	background: #000;
+}
+
+.ps-nav {
+	display: block;
+	width: 2em;
+	height: 2em;
+	border: 1px solid #aaa;
+	background: #ddd;
+	color: #000000;
+	line-height: 2em;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -1em;
+	border-radius: 2em;
+}
+
+.ps-nav-prev {
+	left: -2.5em;
+}
+
+.ps-nav-next {
+	right: -2.5em;
+}
+
+.ps-nav:hover {
+	color: #eee;
+	background: #000000;
+}
+
+.aboutUsOne{
+	margin-top: 3.5em;
+	margin-left: 1.5em;
+	width: 45%;
+	height: 70%;
+	border: 4px solid #FD7E14 ;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #FD7E14 inset,0 0 15px #FD7E14;
+}
+.aboutUsOne div{
+	font-size: 2em;
+	color: #FFFFFF;
+	width: 1em;
+	float: right;
+	margin-top: .8em;
+	margin-right: -0.55em;
+	line-height: 1.8em;
+	background: #333;
+	border-radius: 100em;
+}
+/*.aboutUsTwo{
+	width: 80%;
+	height: 10%;
+	margin: auto;
+	border: 1px solid red;
+}*/
+.aboutUsTwo h1{
+	text-align: center;
+	font-size: 1.8em;
+	margin: auto;
+	margin-top: 1em;
+}
+.aboutUsTwo div{
+	font-size: 1.2em;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	line-height: 1.4em;
+	margin-top: 1em;
+	letter-spacing: 4px;
+}
+@media only screen and (min-width: 100px) and (max-width: 550px) {
+	.aboutUsTwo h1{
+		font-size: 4.5vw;
+	}
+	.aboutUsTwo div{
+		font-size: 3vw;
+		width: 85%;
+	}
+}

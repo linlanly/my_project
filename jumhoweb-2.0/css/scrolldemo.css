@@ -1,0 +1,103 @@
+/**** container css ****/
+
+
+/*** sections css ***/
+
+.section {
+	min-height: 100vh;
+	padding: 30px;
+	position: relative;
+	/*touch-action: none;*/
+}
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+	.section{
+		min-height: 120vh;
+	}
+}
+.content {
+	width: 100%;
+	font-size: 32px;
+	line-height: 36px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* sections end */
+
+
+/*** scroll menu css ***/
+
+.scroll-menu-content .menu-wrap {
+	display: table;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.scroll-menu-content .menu {
+	display: table-cell;
+	color: #eee3e3;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.2em;
+	/*font-family: 'fontNameRegular';*/
+}
+
+
+/*** scroll menu css end***/
+
+
+/*** horizontal menu demo css ***/
+
+
+/*** horizontal menu demo css end***/
+
+
+/*** scrollbar visible demo css ****/
+
+.scroll-menu-wrapper {
+	position: fixed;
+}
+
+.scroll-menu-wrapper.scrollbar-visible,
+.scroll-menu-wrapper.horizontal-top {
+	padding: 0;
+	top: 0px;
+}
+
+.scroll-menu-wrapper.scrollbar-visible .scroll-anchor,
+.scroll-menu-wrapper.horizontal-top .scroll-anchor {
+	height: 7px;
+}
+
+.scroll-menu-wrapper.scrollbar-visible .scroll-menu-content,
+.scroll-menu-wrapper.horizontal-top .scroll-menu-content {
+	top: 7px;
+}
+
+
+/*.menu-wrap{
+	width: 1000px;
+}*/
+
+/*** scrollbar visible demo css end****/
+
+
+/*** creative menu demo css ***/
+
+
+/*** creative menu demo end ***/
